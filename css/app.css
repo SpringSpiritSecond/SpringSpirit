@@ -2937,6 +2937,24 @@ main >.inner {
   top: -10%;
   left: -10%;
 }
+.social .item.github::before {
+  background-color: #191717;
+}
+.social .item.github i {
+  color: #191717;
+}
+.social .item.zhihu::before {
+  background-color: #1e88e5;
+}
+.social .item.zhihu i {
+  color: #1e88e5;
+}
+.social .item.email::before {
+  background-color: #55acd5;
+}
+.social .item.email i {
+  color: #55acd5;
+}
 .social .item.instagram::before {
   background-color: nstagra;
 }
@@ -3242,7 +3260,7 @@ main >.inner {
   padding: 0 2rem;
 }
 .md {
-  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'STKaiti', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -3311,7 +3329,7 @@ main >.inner {
 .post header .meta {
   text-align: center;
   border-top: 0.0625rem dashed var(--grey-9-a1);
-  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'STKaiti', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post .meta {
   color: var(--grey-5);
@@ -3614,7 +3632,7 @@ main >.inner {
 .article .md .anchor::before,
 .article .md .anchor::after {
   content: "H";
-  font-family: 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'STKaiti', 'Mulish', -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
   left: -1.875rem;
   top: 1rem;
   width: 1.25rem;
